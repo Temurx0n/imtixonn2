@@ -7,19 +7,41 @@
 
 
 .navbar {
-
+    width: 100%;
     height: 96px;
     background-color: #006AFF;
+
 }
 
 
 .navbar-brand {
-    margin-left: 318px;
+    /* margin-left: 318px; */
     font-size: 30px !important;
     color: white !important;
 }
+
+.navb {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 150px;
+    display: flex;
+}
+
+.nav_input {
+    width: 304px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px;
+    z-index: -1;
+
+}
 .h5a{
     color: white;
+}
+.h5_a{
+    display: flex;
+    gap: 20px; 
 }
 
 .nav_input {
@@ -41,6 +63,11 @@
     background-color: orange !important;
     color: white !important;
     border: transparent !important;
+}
+.btn:hover {
+    background-color: transparent !important;
+    border: 2px solid orange !important;
+    color: orange !important;
 }
 #home{
     color: #006AFF;
@@ -69,8 +96,12 @@ p{
 .navbar1 {
     display: flex;
     height: 96px;
-    background-color: rgb(40, 40, 255);
+    background-color: #006AFF;
     gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 27px;
   
 }
 #nb{
@@ -91,6 +122,7 @@ p{
 }
 #mes{
     margin-left: 10px;
+    color: white;
 }
 #tel_i {
     color: white !important;
